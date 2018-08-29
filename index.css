@@ -3,3 +3,37 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	} 
+
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'concourse_t2';
+    src: url('type/concourse_t2_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'concourse_t2';
+	font-weight: bold;
+}
