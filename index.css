@@ -1,8 +1,8 @@
 *, *:before, *:after {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	} 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    } 
 
 @font-face {
     font-family: 'concourse_t2';
@@ -34,10 +34,25 @@
 }
 
 body {
-	font-family: 'concourse_t2';
-	font-size: 25px;
-	line-height: 1.2;
-	margin-left: 250px; 
-	margin-right: 250px;
-
+    font-family: 'concourse_t2';
+    font-size: 25px;
+    line-height: 1.2;
+    background-color: #121325;
 }
+
+.container {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-left: auto; 
+        margin-right: auto;
+        max-width: 830px;
+        padding: 84px;
+    }
+}
+
+
+
+
